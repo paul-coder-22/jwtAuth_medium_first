@@ -16,5 +16,3 @@ class Home(APIView):
         content = {'message': f'Hello, {user.username}!'}
         return Response(content)
     
-git config user.name "paul-coder-22"
-git config user.email "kironpaul889@gmail.com"
